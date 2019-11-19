@@ -1,0 +1,57 @@
+body {
+    background-color: #333;
+    font-family: 'Arial Black';
+    font-size: 34.5px;
+  }
+  
+  path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #FF9800;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  div.a 
+  {
+    text-align: center;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .gamebutton {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    }
+
+  .gamebutton:hover {
+    background-color: #991010;
+    color: white;
+    }
